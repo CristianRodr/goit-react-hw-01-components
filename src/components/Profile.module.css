@@ -1,0 +1,65 @@
+.profile {
+  width: 30rem;
+  /*height: 38.6rem;*/
+  -webkit-box-shadow: 0px -2px 15px -4px #000000;
+  box-shadow: 0px -2px 15px -4px #000000;
+  margin-top: 34px;
+  border-radius: 0.5rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 13rem;
+  height: 13rem;
+  background: gainsboro;
+  border-radius: 50%;
+  margin-top: 3.5rem;
+}
+
+.name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.tag,
+.location {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: lightsteelblue;
+  margin-top: 10px;
+}
+
+.stats {
+  margin-top: 32px;
+  display: grid;
+  height: 8rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  border: 1px solid #acacbb2b;
+  background: lavender;
+}
+
+.label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: lightsteelblue;
+}
+
+.quantity {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
