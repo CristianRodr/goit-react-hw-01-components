@@ -1,13 +1,7 @@
-import style from "./Profile.module.css"
-export function Profile({
-                          avatar,
-                          likes,
-                          views,
-                          followers,
-                          location,
-                          tag,
-                          username,
-                        }) {
+import style from './Profile.module.css';
+import PropTypes from "prop-types";
+
+export function Profile({avatar, likes, views, followers, location, tag, username}) {
 
   return (
     <div className={style.profile}>
@@ -39,3 +33,13 @@ export function Profile({
     </div>
   );
 }
+
+Profile.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  username: PropTypes.string.isRequired,
+  followers: PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
+};

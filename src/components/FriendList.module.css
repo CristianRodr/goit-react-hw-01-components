@@ -1,0 +1,33 @@
+.friend-list {
+  width: 46rem;
+  background: #e6e6e6;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 80px;
+  -webkit-box-shadow: 2px 5px 14px 0px rgba(0,0,0,0.96);
+  box-shadow: 2px 5px 14px 0px rgba(0,0,0,0.96);
+  justify-content: flex-start;
+  padding-left: 24px;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 6rem;
+  height: 6rem;
+}
+
+.name {
+  font-size: 3.3rem;
+  font-weight: 500;
+}
+

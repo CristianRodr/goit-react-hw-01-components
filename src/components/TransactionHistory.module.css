@@ -1,0 +1,28 @@
+.transaction-history, th, td {
+  border: 1px solid #E3EBFF;
+  border-collapse: collapse;
+  padding: 2.0rem;
+  margin-top: 20px;
+}
+
+table {
+  text-align: left;
+  width: 70%;
+  box-shadow: 10px 13px 10px -11px rgba(0,0,0,0.75);
+}
+
+thead {
+  background-color: #01BAEF;
+  font-size: 2rem;
+  color: #e6e6e6;
+  font-weight: 700;
+}
+
+tbody:nth-child(even) {
+  background-color: #E3EBFF;
+}
+
+td {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
